@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "project_2 html serializer", "project_2 html serializer\project_2 html serializer.csproj", "{C1986C50-ADDD-4342-ABDD-B4EDF10DB4A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1986C50-ADDD-4342-ABDD-B4EDF10DB4A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1986C50-ADDD-4342-ABDD-B4EDF10DB4A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1986C50-ADDD-4342-ABDD-B4EDF10DB4A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1986C50-ADDD-4342-ABDD-B4EDF10DB4A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C462C09-E027-4541-8E6F-83EEA1C06744}
+	EndGlobalSection
+EndGlobal
