@@ -37,7 +37,7 @@ namespace project_2_html_serializer
             string s = null;
             if (Parent != null) {
                 s = Parent.Name; }
-
+            string cleanedInnerHtml = InnerHtml?.Replace("\n", "").Replace("\r", "").Trim();
             return $"HtmlElement: Name={Name}, Id={Id}, Attributes={string.Join(", ", Attributes)}, Classes={string.Join(", ", Classes)}, InnerHtml={InnerHtml}, ChildrenCount={Children.Count}, Parent={s}";
         }
 
@@ -67,6 +67,29 @@ namespace project_2_html_serializer
                 yield return current.Parent;
                 current = current.Parent;
             }
+        }
+        public override bool Equals(object obj)
+        {
+            if (obj is not HtmlElement other) return false;
+
+            // השוואת ערכים לוגיים, לדוגמה:
+            return Id == other.Id &&
+                   Name == other.Name &&
+                   Attributes.SequenceEqual(other.Attributes) &&
+                   Classes.SequenceEqual(other.Classes) &&
+                   InnerHtml == other.InnerHtml &&
+                   Children.Count == other.Children.Count;
+        }
+        public override int GetHashCode()
+        {
+            // שימוש במאפיינים ליצירת hash ייחודי
+            var hashCode = new HashCode();
+            hashCode.Add(Id);
+            hashCode.Add(Name);
+            foreach (var attr in Attributes) hashCode.Add(attr);
+            foreach (var cls in Classes) hashCode.Add(cls);
+            hashCode.Add(InnerHtml);
+            return hashCode.ToHashCode();
         }
     }
 }
