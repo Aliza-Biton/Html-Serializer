@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\limudim\\praktikod\\try\\Html-Serializer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C1986C50-ADDD-4342-ABDD-B4EDF10DB4A1}|project_2 html serializer\\project_2 html serializer.csproj|d:\\limudim\\praktikod\\try\\html-serializer\\project_2 html serializer\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{C1986C50-ADDD-4342-ABDD-B4EDF10DB4A1}|project_2 html serializer\\project_2 html serializer.csproj|solutionrelative:project_2 html serializer\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C1986C50-ADDD-4342-ABDD-B4EDF10DB4A1}|project_2 html serializer\\project_2 html serializer.csproj|d:\\limudim\\praktikod\\try\\html-serializer\\project_2 html serializer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1986C50-ADDD-4342-ABDD-B4EDF10DB4A1}|project_2 html serializer\\project_2 html serializer.csproj|solutionrelative:project_2 html serializer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C1986C50-ADDD-4342-ABDD-B4EDF10DB4A1}|project_2 html serializer\\project_2 html serializer.csproj|d:\\limudim\\praktikod\\try\\html-serializer\\project_2 html serializer\\htmlelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1986C50-ADDD-4342-ABDD-B4EDF10DB4A1}|project_2 html serializer\\project_2 html serializer.csproj|solutionrelative:project_2 html serializer\\htmlelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1986C50-ADDD-4342-ABDD-B4EDF10DB4A1}|project_2 html serializer\\project_2 html serializer.csproj|d:\\limudim\\praktikod\\try\\html-serializer\\project_2 html serializer\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{C1986C50-ADDD-4342-ABDD-B4EDF10DB4A1}|project_2 html serializer\\project_2 html serializer.csproj|solutionrelative:project_2 html serializer\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HtmlTags.json",
               "DocumentMoniker": "D:\\limudim\\praktikod\\try\\Html-Serializer\\project_2 html serializer\\HtmlTags.json",
               "RelativeDocumentMoniker": "project_2 html serializer\\HtmlTags.json",
@@ -50,12 +50,11 @@
               "RelativeToolTip": "project_2 html serializer\\HtmlTags.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-12T19:28:51.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T19:28:51.712Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "HtmlElementExtensions.cs",
               "DocumentMoniker": "D:\\limudim\\praktikod\\try\\Html-Serializer\\project_2 html serializer\\HtmlElementExtensions.cs",
               "RelativeDocumentMoniker": "project_2 html serializer\\HtmlElementExtensions.cs",
@@ -63,12 +62,11 @@
               "RelativeToolTip": "project_2 html serializer\\HtmlElementExtensions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T19:28:36.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T19:28:36.832Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "HtmlElement.cs",
               "DocumentMoniker": "D:\\limudim\\praktikod\\try\\Html-Serializer\\project_2 html serializer\\HtmlElement.cs",
               "RelativeDocumentMoniker": "project_2 html serializer\\HtmlElement.cs",
@@ -76,25 +74,24 @@
               "RelativeToolTip": "project_2 html serializer\\HtmlElement.cs",
               "ViewState": "AQIAACMAAAAAAAAAAAAUwFMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T19:28:17.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T19:28:17.546Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": ".gitignore",
               "DocumentMoniker": "D:\\limudim\\praktikod\\try\\Html-Serializer\\project_2 html serializer\\.gitignore",
               "RelativeDocumentMoniker": "project_2 html serializer\\.gitignore",
               "ToolTip": "D:\\limudim\\praktikod\\try\\Html-Serializer\\project_2 html serializer\\.gitignore",
               "RelativeToolTip": "project_2 html serializer\\.gitignore",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-05-12T19:28:01.358Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "HtmlHelper.cs",
               "DocumentMoniker": "D:\\limudim\\praktikod\\try\\Html-Serializer\\project_2 html serializer\\HtmlHelper.cs",
               "RelativeDocumentMoniker": "project_2 html serializer\\HtmlHelper.cs",
@@ -102,12 +99,11 @@
               "RelativeToolTip": "project_2 html serializer\\HtmlHelper.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T19:26:27.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T19:26:27.803Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Selector.cs",
               "DocumentMoniker": "D:\\limudim\\praktikod\\try\\Html-Serializer\\project_2 html serializer\\Selector.cs",
               "RelativeDocumentMoniker": "project_2 html serializer\\Selector.cs",
@@ -115,12 +111,11 @@
               "RelativeToolTip": "project_2 html serializer\\Selector.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T19:26:24.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T19:26:24.285Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\limudim\\praktikod\\try\\Html-Serializer\\project_2 html serializer\\Program.cs",
               "RelativeDocumentMoniker": "project_2 html serializer\\Program.cs",
