@@ -1,20 +1,12 @@
-﻿# תיקיות זמניות של Visual Studio Code
-.vscode/
-# קבצים ותיקיות שנוצרים ע"י Visual Studio או MSBuild
+﻿.vscode/
 bin/
 obj/
-
-# תיקיות זמניות של Visual Studio
 .vs/
-
-# קבצים נוספים שיכולים להיווצר
 *.user
 *.suo
 *.log
 *.temp
 *.pid
 *.svclog
-
-# קבצי מערכת
 .DS_Store
 Thumbs.db

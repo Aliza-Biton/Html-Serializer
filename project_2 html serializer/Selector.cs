@@ -61,16 +61,14 @@ namespace project_2_html_serializer
 
         public static void PrintSelectorTree(Selector selector, int level = 0)
         {
-            // הדפס את ה-TagName, Id ו-Classes עבור הסלקטור הנוכחי
             StringBuilder sb = new StringBuilder();
-            sb.Append(new string(' ', level * 2)); // הוספת רווחים לפי הרמה (indentation)
+            sb.Append(new string(' ', level * 2));
             sb.Append($"Tag: {selector.TagName ?? "N/A"}");
             sb.Append(selector.Id != null ? $", Id: {selector.Id}" : "");
             sb.Append(selector.Classes.Any() ? $", Classes: {string.Join(", ", selector.Classes)}" : "");
 
-            Console.WriteLine(sb.ToString()); // הדפס את הסלקטור הנוכחי
+            Console.WriteLine(sb.ToString());
 
-            // אם יש Child, קרא לפונקציה באופן רקורסיבי על הילד
             if (selector.Child != null)
             {
                 PrintSelectorTree(selector.Child, level + 1);

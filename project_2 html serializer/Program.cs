@@ -1,5 +1,4 @@
-﻿    // See https://aka.ms/new-console-template for more information
-
+﻿
     using project_2_html_serializer;
     using System.Text.RegularExpressions;
 
@@ -80,7 +79,6 @@
         }
     }
 
-    //פונקצייה שמדפיסה עץ
     static void PrintTree(HtmlElement element, int indent)
     {
         Console.WriteLine(new string(' ', indent) + element.ToString());

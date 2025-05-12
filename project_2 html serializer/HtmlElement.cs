@@ -27,8 +27,8 @@ namespace project_2_html_serializer
 
         public void AddChild(HtmlElement child)
         {
-            child.Parent = this; // עדכן את האב של הילד
-            Children.Add(child); // הוסף את הילד לרשימה
+            child.Parent = this;
+            Children.Add(child);
         }
 
 
@@ -72,7 +72,6 @@ namespace project_2_html_serializer
         {
             if (obj is not HtmlElement other) return false;
 
-            // השוואת ערכים לוגיים, לדוגמה:
             return Id == other.Id &&
                    Name == other.Name &&
                    Attributes.SequenceEqual(other.Attributes) &&
@@ -82,7 +81,6 @@ namespace project_2_html_serializer
         }
         public override int GetHashCode()
         {
-            // שימוש במאפיינים ליצירת hash ייחודי
             var hashCode = new HashCode();
             hashCode.Add(Id);
             hashCode.Add(Name);
