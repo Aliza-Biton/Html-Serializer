@@ -20,8 +20,8 @@ namespace project_2_html_serializer
             {
                 var content1 = File.ReadAllText("HtmlTags.json");
                 var content2 = File.ReadAllText("HtmlVoidTags.json");
-            this.tags = JsonSerializer.Deserialize<string[]>(content1); // המרה למערך
-            this.voidTags = JsonSerializer.Deserialize<string[]>(content2); // המרה למערך 
+            this.tags = JsonSerializer.Deserialize<string[]>(content1);
+            this.voidTags = JsonSerializer.Deserialize<string[]>(content2);
         }
         }
 }

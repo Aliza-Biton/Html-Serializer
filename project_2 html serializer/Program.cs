@@ -50,7 +50,7 @@
                 var parts = regex.Matches(line);
                 foreach (Match match in parts)
                 {
-                    string part = match.Value; // קבלת המחרוזת מההתאמה
+                    string part = match.Value;
                     if (part.StartsWith("id"))
                     {
                         newElement.Id = part.Split('=')[1];
